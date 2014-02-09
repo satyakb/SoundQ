@@ -2,13 +2,13 @@ Instructions:
 1. Open Google Chrome
 2. Open your extensions (Window -> Extensions)
 3. Click the Developer mode box on the top right
-4. Click load unpacked extension and find this “Extension” folder. Highlight the folder and click open. 
+4. Click load unpacked extension and find this unzipped folder. Highlight the folder and click open. 
 5. If it isn’t enabled, enable SoundQ and test on soundcloud.com :D
 
 
 Bugs:
 1. Soundcloud’s player and queue player aren’t mutually exclusive
-2. Orange bar on top gets gets covered while dragging songs
+2. Orange bar on top gets covered while dragging songs
 
 Ideas:
 1. Move whole queue around page
