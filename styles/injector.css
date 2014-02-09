@@ -1,0 +1,217 @@
+/*should find separate images, small = 15x15, med = 20x20*/
+.sc-button-small.sc-button-queue:before, .sc-button-medium.sc-button-queue:before {
+	background-image: url('http://www.comm100.com/images/icon/icon_ok_pricing.png');
+}
+.sc-button-queue {
+	text-indent: 15px;
+}
+.sc-button-queue:before {
+	left: 3px;
+/* from soundcloud copy/pasted */
+	content: "";
+	display: block;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
+	background-position: center center;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	width: 20px;
+	height: 20px;
+	top: 0;
+	left: 4px;
+}
+#soundqframe {
+	text-align: center;
+	/*background-color: blue;*/
+	position: fixed;
+	border: none;
+	/*border-radius: 5px;*/
+	height: 50px;
+	bottom: 0;
+	right: 5px;
+	width: 20%;
+	z-index: 999;
+	/*overflow-y: hidden;*/
+	/*-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;*/
+}
+/*#soundqframe:hover {
+	/*overflow-y: scroll; 
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+}*/
+#qPlayer {
+	background-color: #f60;
+	height: 100%;
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	/*display: none;*/
+}
+#currTitle {
+	height: 15px;
+	width: 76%;
+	left: 12%;
+	top: 4px;
+	/*bottom: 40px;*/
+	/*margin: 0 auto;*/
+	position: absolute;
+	/*left: 10px;*/
+	text-align: center;
+	/*padding-left: 2px;*/
+	padding-right: 1px;
+	/*background-color: green;*/
+	/*border-radius: 5px;*/
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	z-index: 100;
+	margin-bottom: 0px;
+}
+#currTitle::-webkit-scrollbar { 
+    display: none; 
+}
+#list {
+	/*padding-left: 10px;*/
+	/*padding-right: 10px;*/
+	/*padding-top: 5px;*/
+	bottom: 50px;
+	position: absolute;
+	width: 100%;
+	/*display: none;*/
+	/*border-radius: 5px;*/
+	display: none;
+	background-color: #333;
+	color: #e4e7ea;
+	/*max-height: 400px;*/
+	overflow-y: scroll; 
+	/*z-index: 2000;*/
+	/*-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;*/
+
+}
+#qlist {
+	list-style-type: none;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	/*z-index: 2000;*/
+	/*padding-top: 5px;*/
+	border-top: 5px solid #f60;
+	overflow: auto;
+}
+.qEntry {
+	font-family: "Interstate","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	cursor: pointer;
+	width: 100%;
+	margin: 0px;
+	display: inline-block;
+	/*border-bottom: 1px solid black;*/
+	/*white-space: nowrap;*/
+	/*overflow-x: hidden;*/
+	height: 30px;
+	position: relative;
+	/*text-align: center;*/
+	background-color: #333;
+}
+.qTitle {
+	position: absolute;
+	left: 17%;
+	width: 64%;
+	overflow-x: hidden;
+	white-space: nowrap;
+	padding-left: 3px; 
+	padding-right: 3px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ddd;
+	display: inline-block;
+	/*background-color: red;*/
+}
+/*#qEntry1 {
+	border: none;
+}*/
+#qPlayInfo {
+	background-color: purple;
+	/*width: 100%;
+	height: 100%;*/
+}
+.qOptions {
+	position: absolute;
+	font-family: "guifx", sans-serif;
+	font-size: 12pt;
+	color: #e4e7ea;
+	cursor: pointer;
+	bottom: 18%;
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+}
+.qOptions:hover {
+	color: white;
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+}
+#qShowButton {
+	left: 7%;
+}
+#qPlayButton {
+	left: 15%;
+	/*font-size: 10pt;*/
+	/*bottom: 25%;*/
+}
+#qNextButton {
+	left: 22%;
+}
+#qClearButton {
+	right: 8%;
+}
+#qScrubber {
+	background-color: red;
+	height: 5px;
+	width: 53%;
+	left: 32%;
+	bottom: 18px;
+}
+#qProgress {
+	background-color: #e4e7ea;
+	height: 100%;
+	width: 0%;
+}
+.qChangeQ {
+	font-family: "guifx", sans-serif;
+	width: auto;
+	/*display: inline-block;*/
+	position: absolute;
+	bottom: 5px;
+}
+.qMakeNext {
+	left: 8%;
+}
+.qEntryContainer {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: auto;
+	z-index: 1000;
+	/*background-color: red;*/
+}
+.qRemove {
+	right: 8%;
+}

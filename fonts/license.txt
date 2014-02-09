@@ -1,0 +1,23 @@
+= = = = = = = = = = = = = =
+Guifx Font License
+= = = = = = = = = = = = = =
+
+This font is free for personal and limited commercial use.
+
+USAGE LIMITATIONS
+
+You may:
+
+1. use this font for personal projects
+2. use or distribute this font on hardware or software prepared for an individual client
+
+You may not use this font in any way that is not specifically allowed by this agreement. Without limiting the generality of the foregoing, you may not:
+
+1. modify the font
+2. post the font to a publicly accessible network or server
+3. redistribute the font without express permission from Guifx
+4. use or distribute the font on hardware or software prepared for distribution without an extended license
+
+If you are interested in an extended license or have a question about proper legal usage please visit www.guifx.com/support
+
+Copyright 2009 Guifx, LLC. All Rights Reserved.
